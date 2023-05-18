@@ -17,7 +17,7 @@ class HomePage extends StatelessWidget {
       ),
       body: ListView(
         children: <Widget>[
-          Image.asset('asset/abraco.png'),
+          Image.asset('assets/abraco.png'),
           const SizedBox(height: 8),
           Consumer<ApplicationState>(
             builder: (context, appState, _) => AuthFunc(
@@ -33,8 +33,7 @@ class HomePage extends StatelessWidget {
             endIndent: 8,
             color: Colors.grey,
           ),
-          const Paragraph(
-              'Join us for a day full of Firebase Workshops and Pizza!')
+          const Paragraph('Você não está sozinha.')
         ],
       ),
     );
